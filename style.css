@@ -92,4 +92,70 @@ div.attribution {
 a > span {
     color: rgb(236, 147, 209);
     text-decoration: none;
+}   
+
+@media(max-width: 900px) {
+    body {
+        background-color: hsl(233, 47%, 7%);
+    }
+    
+    div.main {
+        width: 350px;
+        height: 90vh;
+        margin: 30px auto;
+        background: hsl(246, 33%, 22%) url(images/image-header-desktop.png) no-repeat;
+        background-size: 350px;
+    }
+
+    h1 {
+        padding-top: 320px ;
+        margin-left: -50px;
+        width: 300px;
+        text-align: center;
+    }
+
+    p.paragraph-main {
+        margin: -10px 0px 0px -45px;
+        width: 280px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    div.paragraph-result {
+        width: 100px;
+        margin: -20px 0px 0px 70px;
+        position: relative;
+        cursor: default;
+        transform: scale(1.1);
+    }
+
+    div.paragraph-result > p.p1 > span.sp1 {
+        margin-top: 60px;
+        display: flex;
+    }
+
+    div.paragraph-result > p.p1 > span.sp2 {
+        display: flex;
+        margin: 60px 0px 0px 60px;
+    }
+
+    p.p2 {
+        position: absolute;
+        margin: -165px 0px 0px -5px;
+        height: 300px;
+    }
+
+    p.p2 > span {
+        margin-top: 70px;
+        display: block;
+    }
+
+    p.p2 > span.sp3 {
+        margin-top: 0px;
+    }
+
+    p.p2 > span.sp5 {
+        margin-left: 65px;
+        margin-top: 70px;
+    }
 }
